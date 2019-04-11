@@ -1,10 +1,7 @@
-/**
- * index.js
- * - All our useful JS goes here, awesome!
- */
+
 
 console.log("JavaScript is amazing!");
-http://www.akzhy.com/blog/pure-css-modal/
+
 var type = $('#type');
 
 type.data('text', type.text());
