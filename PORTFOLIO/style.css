@@ -2,7 +2,6 @@
 margin-bottom: 0;
 }
 .banner-1{
-    background-color:#008080;
     min-height:730px;
 }
 h1{
@@ -12,13 +11,13 @@ h1{
 .navbar{
     background-color: #008080;
 	padding:50 50px;
-	
-  
+
+
 }
 .navbar-nav a:hover {
     background-color: white;
     border-bottom: 3px solid black;
-    
+
 }
 
 .navbar-nav a:hover{
@@ -43,7 +42,7 @@ border-radius: 50%;
 
 }
 .para{
-    color:#008080;
+    color:white;
 }
 
 li {
@@ -54,10 +53,11 @@ li {
         transition: all ease-in-out 250ms;
       }
      li{
-        color:#008080;
+        color:#white;
      }
 li:hover{
-          color:white;
+  background-color: white;
+  border-bottom: 3px;
       }
       .form-inline > * {
         margin:5px 40px;
@@ -67,6 +67,9 @@ li:hover{
         background-color:  #83dbd1;
      }
 	 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+   li:hover{
+         color: black !important;
+   }
 
 body{
   background: #f1f1ff;
@@ -85,4 +88,8 @@ body{
   display: inline-block;
 }
 
-.
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.graphicpear.com/wp-content/uploads/2017/11/3-3.jpg")
+}
