@@ -10,7 +10,7 @@ type.removeClass('zeroOpacity');
 
 // typer
 function typer(text, n, speed) {
-	
+
     if (n < (text.length)) {
         type.html(text.substring(0, n+1));
         n++;
